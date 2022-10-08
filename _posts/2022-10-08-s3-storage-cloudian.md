@@ -19,9 +19,8 @@ theme: black
   <h1>MỤC LỤC</h1>
   <ul>
     <li class="fragment fade-left">Giới thiệu về S3 Storage</li>
-    <li class="fragment fade-left">Các tính năng và mô hình cơ bản</li>
-    <li class="fragment fade-left">Ưu điểm và Khuyết điểm</li>
-    <li class="fragment fade-left">Ứng dụng</li>
+    <li class="fragment fade-left">Object Storage</li>
+    <li class="fragment fade-left">S3 Storage</li>
     <li class="fragment fade-left">Các nhà cung cấp S3</li>
     <li class="fragment fade-left">VNDATA Cloud Object Storage project</li>
   </ul>
@@ -34,9 +33,8 @@ theme: black
     <h1>MỤC LỤC</h1>
     <ul>
      <li><b>Giới thiệu về S3 Storage</b></li>
-     <li style="color: gray;">Các tính năng và mô hình cơ bản</li>
-     <li style="color: gray;">Ưu điểm và Khuyết điểm</li>
-     <li style="color: gray;">Ứng dụng</li>
+     <li style="color: gray;">Object Storage</li>
+     <li style="color: gray;">S3 Storage</li>
      <li style="color: gray;">Các nhà cung cấp S3</li>
      <li style="color: gray;">VNDATA Cloud Object Storage project</li>
     </ul>
@@ -111,13 +109,156 @@ theme: black
   </section>
   <section data-background="{{site.baseurl}}/images/2022/10/08/s3-storage-cloudian/008.png" data-background-size="100%">
     <div style="background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; opacity: 0.9;">
-      <h3>Cách mạng công nghiệp lần 4</h3>
-      <p><span class="fragment">Năm 2006, Amazon công bố S3 Object Storage</span></p>
+      <h3>Storage for the internet</h3>
       <p><span class="fragment">Đa dạng hóa trong việc lưu trữ dữ liệu như tốc độ, nền tảng, kiểu dữ liệu, ..</span></p>
+      <p><span class="fragment">Năm 2006, Amazon công bố S3 Object Storage</span></p>
     </div>
     <aside class="notes">
+      Cách mạng công nghiệp lần 4
       APIs, IoT, AI, ..
     </aside>
   </section>
 </section>
 <!-- END 1 -->
+
+<!-- 2 -->
+<section id="fragments">
+  <section>
+    <h1>MỤC LỤC</h1>
+    <ul>
+     <li style="color: gray;">Giới thiệu về S3 Storage</li>
+     <li><b>Object Storage</b></li>
+     <li style="color: gray;">S3 Storage</li>
+     <li style="color: gray;">Các nhà cung cấp S3</li>
+     <li style="color: gray;">VNDATA Cloud Object Storage project</li>
+    </ul>
+  </section>
+  <section data-background="{{site.baseurl}}/images/2022/10/08/s3-storage-cloudian/009.png" data-background-size="100%">
+    <div style="background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; opacity: 0.9;">
+      <h2>Object Storage và các Storage truyền thống</h2>
+    </div>
+  </section>
+  <section data-background="{{site.baseurl}}/images/2022/10/08/s3-storage-cloudian/009.png" data-background-size="100%">
+  </section>
+  <section data-background="{{site.baseurl}}/images/2022/10/08/s3-storage-cloudian/010.jpeg" data-background-size="85%">
+  </section>
+  <section data-background="{{site.baseurl}}/images/2022/10/08/s3-storage-cloudian/011.jpg" data-background-size="85%">
+  </section>
+  <section data-background="{{site.baseurl}}/images/2022/10/08/s3-storage-cloudian/012.jpg" data-background-size="85%">
+  </section>
+  <section data-background="{{site.baseurl}}/images/2022/10/08/s3-storage-cloudian/013.jpg" data-background-size="85%">
+  </section>
+</section>
+<!-- END 2 -->
+
+<!-- 3 -->
+<section id="fragments">
+  <section>
+    <h1>MỤC LỤC</h1>
+    <ul>
+     <li style="color: gray;">Giới thiệu về S3 Storage</li>
+     <li style="color: gray;">Object Storage</li>
+     <li><b>S3 Storage</b></li>
+     <li style="color: gray;">Các nhà cung cấp S3</li>
+     <li style="color: gray;">VNDATA Cloud Object Storage project</li>
+    </ul>
+  </section>
+  <section data-background="{{site.baseurl}}/images/2022/10/08/s3-storage-cloudian/014.jpg" data-background-size="90%">
+    <br><br><br><br>
+    <div style="background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; opacity: 0.9;">
+      <h3>S<span style="color: gray;">imple</span> S<span style="color: gray;">torage</span> S<span style="color: gray;">ervice</span></h3>
+    </div>
+  </section>
+  <section data-background="{{site.baseurl}}/images/2022/10/08/s3-storage-cloudian/014.jpg" data-background-size="90%">
+    <div style="background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; opacity: 0.9;">
+      <p class="fragment"><span style="color: gray;">Amazon Simple Storage Service (S3) is a</span> storage for the internet.</p>
+      <p class="fragment"><span style="color: gray;">It is designed for </span>large-capacity, low-cost storage <span style="color: gray;">provision</span> across multiple geographical regions.</p>
+      <p class="fragment"><span style="color: gray;">Amazon S3 provides developers and IT teams with</span> Secure, Durable <span style="color: gray;">and</span> Highly Scalable <span style="color: gray;">object storage.</span></p>
+    </div>
+  </section>
+  <section data-background="{{site.baseurl}}/images/2022/10/08/s3-storage-cloudian/015.jpeg" data-background-size="80%">
+    <br><br><br><br>
+    <div style="background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; opacity: 0.9;">
+      <h3>Storage for the internet</h3>
+      <ul>
+        <li class="fragment">Có thể truy cập từ mọi nơi trên Internet</li>
+        <li class="fragment">Lưu trữ được nhiều loại dữ liệu</li>
+        <li class="fragment">Đa nền tảng</li>
+        <li class="fragment">Đa ứng dụng</li>
+        <li class="fragment">Tương thích với các loại Storages khác</li>
+       </ul>
+    </div>
+  </section>
+  <section data-background="{{site.baseurl}}/images/2022/10/08/s3-storage-cloudian/016.jpeg" data-background-size="80%">
+    <br><br><br><br>
+    <div style="background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; opacity: 0.9;">
+      <h3>Large-capacity Storage</h3>
+      <ul>
+        <li class="fragment">Dung lượng lưu trữ cực lớn được nhà cung cấp tính toán</li>
+        <li class="fragment">Khách hàng chủ động mở rộng dung lượng sử dụng không giới hạn</li>
+       </ul>
+    </div>
+  </section>
+  <section data-background="{{site.baseurl}}/images/2022/10/08/s3-storage-cloudian/017.jpg" data-background-size="70%">
+    <br><br><br><br>
+    <div style="background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; opacity: 0.9;">
+      <h3>Low-cost Storage</h3>
+      <ul>
+        <li class="fragment">Pay-as-you-go</li>
+        <li class="fragment">Khách hàng chủ động giảm dung lượng sử dụng</li>
+       </ul>
+    </div>
+  </section>
+  <section data-background="{{site.baseurl}}/images/2022/10/08/s3-storage-cloudian/018.png" data-background-size="80%">
+    <br><br><br><br>
+    <div style="background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; opacity: 0.9;">
+      <h3>Across multiple geographical regions</h3>
+      <ul>
+        <li class="fragment">Tương thích với đa số các nhà cung cấp CDN</li>
+        <li class="fragment">Cấu hình storage tương ứng với vị trí địa lý</li>
+       </ul>
+    </div>
+  </section>
+  <section data-background="{{site.baseurl}}/images/2022/10/08/s3-storage-cloudian/019.png" data-background-size="80%">
+    <br><br><br><br>
+    <div style="background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; opacity: 0.9;">
+      <h3>Secure, Durable and Highly Scalable</h3>
+      <ul>
+        <li class="fragment">Mã hóa dữ liệu ở client và server side</li>
+        <li class="fragment">Có nhiều bản copy để phục hồi dữ liệu</li>
+        <li class="fragment">Sử dụng checksum để xác minh tính toàn vẹn dữ liệu</li>
+       </ul>
+    </div>
+  </section>
+</section>
+<!-- END 3 -->
+
+<!-- 4 -->
+<section id="fragments">
+  <section>
+    <h1>MỤC LỤC</h1>
+    <ul>
+     <li style="color: gray;">Giới thiệu về S3 Storage</li>
+     <li style="color: gray;">Object Storage</li>
+     <li style="color: gray;">S3 Storage</li>
+     <li><b>Các nhà cung cấp S3</b></li>
+     <li style="color: gray;">VNDATA Cloud Object Storage project</li>
+    </ul>
+  </section>
+</section>
+<!-- 4 -->
+
+<!-- 5 -->
+<section id="fragments">
+  <section>
+    <h1>MỤC LỤC</h1>
+    <ul>
+     <li style="color: gray;">Giới thiệu về S3 Storage</li>
+     <li style="color: gray;">Object Storage</li>
+     <li style="color: gray;">S3 Storage</li>
+     <li style="color: gray;">Các nhà cung cấp S3</li>
+     <li><b>VNDATA Cloud Object Storage project</b></li>
+    </ul>
+  </section>
+</section>
+<!-- 5 -->
