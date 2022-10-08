@@ -1,0 +1,43 @@
+I"Î
+<section data-background="#0a5">
+        <h1>Where are these slides?</h1>You will find all these slides in the Front Matter of respective posts. Search inside <strong>_posts</strong> folder.
+
+</section>
+
+<section data-background="#0a5">
+        <h1>How to edit them?</h1>All slides are mentioned under <strong>"slides:"</strong> in every post. Change its content for your needs.
+
+</section>
+
+<section data-background="#0a5">
+        <h1>Choose a theme!</h1>Choose a theme using one of these in the Front Matter. <strong>black, white, league, sky, beige, simple, serif, blood(default), night, moon, solarized</strong>.<pre><code>
+-&nbsp;title:&nbsp;Some title
+&nbsp;&nbsp;slide-data:&nbsp;some data
+&nbsp;&nbsp;theme:&nbsp;white </code></pre>
+
+</section>
+
+<section data-background="#3498db">
+        <h1>Add background color!</h1>Use <strong>background:</strong> attribute on a slide to change its backround color.<pre><code>
+-&nbsp;title:&nbsp;Some title
+&nbsp;&nbsp;slide-data:&nbsp;some data
+&nbsp;&nbsp;background:&nbsp;'#0a5' </code></pre>
+
+</section>
+
+<section data-background="/slides/images/rail.jpg">
+        <h1>Add a background image!</h1>Mention <strong>image:</strong> attribute with complete path of the image in Front Matter for the particular slide. <pre><code>image:&nbsp;'/images/image-1.jpg'</code></pre>
+
+</section>
+
+<section data-background="#0a5">
+        <h1>Many more data types..</h1>Checkout <a href="http://webjeda.com/slides/demo/">demo</a> page for more data types.
+
+</section>
+
+<section data-background="#0a5">
+        <h1>Download!</h1>Visit the <a href="https://github.com/sharu725/slides">project page</a> or directly <a href="https://github.com/sharu725/slides/archive/master.zip">download</a>.
+
+</section>
+
+:ET
