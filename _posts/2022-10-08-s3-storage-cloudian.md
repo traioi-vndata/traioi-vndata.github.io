@@ -185,7 +185,7 @@ theme: black
         <li class="fragment">Lưu trữ được nhiều loại dữ liệu</li>
         <li class="fragment">Đa nền tảng</li>
         <li class="fragment">Đa ứng dụng</li>
-        <li class="fragment">Tương thích với các loại Storages khác</li>
+        <li class="fragment">S3-compatible storage</li>
        </ul>
     </div>
   </section>
@@ -205,6 +205,7 @@ theme: black
       <h3>Low-cost Storage</h3>
       <ul>
         <li class="fragment">Pay-as-you-go</li>
+        <li class="fragment">Pay-as-you-use</li>
         <li class="fragment">Khách hàng chủ động giảm dung lượng sử dụng</li>
        </ul>
     </div>
@@ -245,8 +246,36 @@ theme: black
      <li style="color: gray;">VNDATA Cloud Object Storage project</li>
     </ul>
   </section>
+ <section data-background="{{site.baseurl}}/images/2022/10/08/s3-storage-cloudian/020.jpg" data-background-size="85%">
+    <div style="background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; opacity: 0.9;">
+      <h3>Các nhà cung cấp S3 nước ngoài</h3>
+      <ul>
+        <li class="fragment">Amazon (AWS S3)</li>
+        <li class="fragment">Google (Google Cloud Storage)</li>
+        <li class="fragment">Linode (Linode Object Storage)</li>
+        <li class="fragment">Microsoft Azure (Azure Blob Storage)</li>
+        <li class="fragment">IBM (IBM Cloud Object Storage)</li>
+        <li class="fragment">DigitalOcean (DigitalOcean Spaces)</li>
+        <li class="fragment">...</li>
+       </ul>
+    </div>
+  </section>
+  <section data-background="{{site.baseurl}}/images/2022/10/08/s3-storage-cloudian/021.jpeg" data-background-size="70%">
+    <div style="background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; opacity: 0.9;">
+      <h3>Các nhà cung cấp S3 trong nước</h3>
+      <ul>
+        <li class="fragment">FPT Cloud (FPT Object Storage)</li>
+        <li class="fragment">VIETTEL IDC (Viettel Cloud Object Storage)</li>
+        <li class="fragment">CMC Cloud (CMC Object Storage “S3”)</li>
+        <li class="fragment">Bizfly Cloud (Bizfly Simple Storage)</li>
+        <li class="fragment">LongVan (Standby Object Storage)</li>
+        <li class="fragment">VNDATA JSC (.. Chưa nghĩ ra tên)</li>
+        <li class="fragment">...</li>
+       </ul>
+    </div>
+  </section>
 </section>
-<!-- 4 -->
+<!-- END 4 -->
 
 <!-- 5 -->
 <section id="fragments">
@@ -260,5 +289,46 @@ theme: black
      <li><b>VNDATA Cloud Object Storage project</b></li>
     </ul>
   </section>
+  <section data-background="{{site.baseurl}}/images/2022/10/08/s3-storage-cloudian/022.jpg" data-background-size="90%">
+    <div style="background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; opacity: 0.9;">
+      <h3>Hạ tầng dịch vụ</h3>
+      <ul>
+        <li class="fragment"><b>CLOUDIAN</b></li>
+        <li class="fragment">Công ty cung cấp sản phẩm lưu trữ File và Object storage có trụ sở tại thung lũng Silicon</li>
+        <li class="fragment">Chuyên cung cấp dịch vụ On-Premise S3-Compatiple Storage</li>
+        <li class="fragment">Sản phẩm Cloudian trên thế giới: VMware, Hewett Packard Enterprice (HPE), ..</li>
+        <li class="fragment">Sản phẩm Cloudian ở Việt Nam: Viettel IDC, FPT Cloud, ..</li>
+      </ul>
+    </div>
+  </section>
+  <section data-background="{{site.baseurl}}/images/2022/10/08/s3-storage-cloudian/023.jpg" data-background-size="90%">
+    <div style="background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; opacity: 0.9;">
+      <h3>Hyperstore</h3>
+      <ul>
+        <li class="fragment">Native S3 API Compatibility</li>
+        <li class="fragment">Mở rộng theo dạng module</li>
+        <li class="fragment">Hybrid Cloud</li>
+        <li class="fragment">Ransomeware protection</li>
+        <li class="fragment">Hỗ trợ đa nền tảng</li>
+        <li class="fragment">Geo-distribution</li>
+      </ul>
+    </div>
+  </section>
+  <section data-background="{{site.baseurl}}/images/2022/10/08/s3-storage-cloudian/024.jpg" data-background-size="90%">
+    <div style="background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; opacity: 0.9;">
+      <h3>Pay-as-you-use</h3>
+      <img src="{{site.baseurl}}/images/2022/10/08/s3-storage-cloudian/024.jpg">
+    </div>
+  </section>
 </section>
-<!-- 5 -->
+<!-- END 5 -->
+
+<!-- 6 -->
+<section data-background="{{site.baseurl}}/images/2022/10/08/s3-storage-cloudian/025.jpg" data-background-size="70%">
+</section>
+<!-- END 6 -->
+
+<!-- 7 -->
+<section data-background="{{site.baseurl}}/images/2022/10/08/s3-storage-cloudian/026.gif" data-background-size="50%">
+</section>
+<!-- END 6 -->
