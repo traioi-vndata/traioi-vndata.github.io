@@ -1,5 +1,7 @@
 ---
 title: S3 Storage (Cloudian)
+description: Giới thiệu về S3 Storage & VNDATA Cloud Object Storage project
+banner: s3-storage.jpg
 layout: post
 theme: black
 ---

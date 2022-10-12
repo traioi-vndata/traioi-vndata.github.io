@@ -1,45 +1,57 @@
 ---
 layout: compress
 ---
-<!doctype html>
+<!DOCTYPE html>
 <html>
-   <head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-		<title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
-    
-        <meta name="description" content="{{ site.description }}">
-         <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-
-		<link rel="stylesheet" href="{{site.baseurl}}/css/home.css">
-        
-		    <!-- Favicon -->
-<link rel="shortcut icon" type="image/x-icon" href="{{site.baseurl}}/favicon.ico" />
-	</head>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/cards.css">      
+  <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/title.css">      
+	<!-- Favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="{{site.baseurl}}/favicon.ico" />
+</head>
    
-    <body>
-       <header>
-           <a href="{{site.baseurl}}"><div class="brand">
-           <h1 class="headline">{{site.title}}</h1></div></a>
-       </header>
-        <div class="pack">
-        
-{% for post in site.posts %}                              
-                               
-    <a target="_blank" class="link" href="{{site.baseurl}}{{post.url}}"> 
-       
-        <div class="card" style="background-color: {% cycle '#e74c3c', '#1abc9c', '#e67e22', '#34495e', '#f1c40f', '#3498db', '#2ecc71', '#9b59b6' %}" >
-           <div class="card-number">
-               {{forloop.rindex}}
-           </div>
-            <div class="card-title">
-                {{ post.title | truncate: 13 }}
-            </div>
-        </div>
-    </a>
-          
-{% endfor %}
-        </div>
-         {% include analytics.html %}
-    </body>
+<body>
+	<style type="text/css" media="screen">
+		body {background:url("{{site.baseurl}}/images/background.jpg"); background-size: cover;}
+	</style>
+
+  <div class="title" title="{{site.title}}">{{site.title}}</div>
+  <div class="pack">
+	{% for post in site.posts %}
+	<style type="text/css" media="screen">
+	/*card{{forloop.rindex}}*/
+	.card-image.card{{forloop.rindex}} {
+  	background: linear-gradient(#fff0 0%, #fff0 70%, #1d1d1d 100%),url("{{site.baseurl}}/images/banners/{{ post.banner }}");
+  	background-size: cover;
+  	background-position: center;
+	}
+	.card-text.card{{forloop.rindex}} .date {
+  	color: rgb(255, 77, 7);
+	}
+	.card-stats.card{{forloop.rindex}} .border {
+  	border-left: 1px solid rgb(185, 67, 20);
+  	border-right: 1px solid rgb(185, 67, 20);
+	}
+	.card-stats.card{{forloop.rindex}} {
+  	background: rgb(255, 77, 7);
+	}
+	</style>
+	<a target="_blank" class="link" href="{{site.baseurl}}{{post.url}}">
+	<div class="card rgb">
+  	<div class="card-image card{{forloop.rindex}}"></div>
+  	<div class="card-text card{{forloop.rindex}}">
+    	<span class="date"></span>
+    	<h2>{{ post.title }}</h2>
+    	<p>{{ post.description }}</p>
+  	</div>
+	</div>
+	</a>
+	{% endfor %}
+  </div>
+</body>
 </html>
