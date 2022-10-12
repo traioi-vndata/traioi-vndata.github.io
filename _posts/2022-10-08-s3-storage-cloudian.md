@@ -58,7 +58,11 @@ theme: black
       <p><span class="fragment">Sau đó, ông thành lập công ty được biết với tên IBM</span></p>
     </div>
     <aside class="notes">
-      Cách mạng công nghiệp lần thứ 2
+      Ở thời đại cách mạng công nghiệp lần thứ 2 (điện, đường sắt, in ấn)<br>
+      Nổi bật quá trình điện khí hóa mà những nhà tiên phong là <br>
+      * Nikola Tesla: nhà vật lý, là người thúc đẩy sự phát triển mạng lưới điện xoay chiều.<br>
+      * Thomas Alva Edison: nhà phát minh, người thúc đẩy cho sự phát triển của mạng lưới điện một chiều.<br>
+      * George Westinghouse: kỹ sư,  người cung cấp tài chính phát triển mạng lưới điện xoay chiều thực dụng.
     </aside>
   </section>
   <section data-background="{{site.baseurl}}/images/2022/10/08/s3-storage-cloudian/004.jpg" data-background-size="90%">
@@ -68,7 +72,9 @@ theme: black
       <p><span class="fragment">Đĩa từ (magnetic tape) ra đời</span></p>
     </div>
     <aside class="notes">
-      Cách mạng công nghiệp lần thứ 3
+      Cách mạng công nghiệp lần thứ 3<br>
+      Chuyển đổi công nghệ analogue sang định dạng kỹ thuật số có thể tạo ra các bản sao giống hệt với bản gốc<br>
+      Sự ra đời của Transistor (bóng bán dẫn) -> máy tính kỹ thuật số tiên tiến hơn<br>
     </aside>
   </section>
   <section data-background="{{site.baseurl}}/images/2022/10/08/s3-storage-cloudian/005.jpg" data-background-size="70%">
@@ -89,22 +95,20 @@ theme: black
       <p><span class="fragment">nhưng giá thành rất cao</span></p>
     </div>
     <aside class="notes">
-      (được SanDisk mua lại năm 2006)
-      Solid-state ổ đĩa bán dẫn
+      (được SanDisk mua lại năm 2006)<br>
+      Solid-state ổ đĩa bán dẫn<br>
       Flaskdisk = SSD
     </aside>
   </section>
   <section data-background="{{site.baseurl}}/images/2022/10/08/s3-storage-cloudian/007.jpg" data-background-size="70%">
     <div style="background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; opacity: 0.9;">
       <h3>Công nghệ điện toán đám mây</h3>
-      <p><span class="fragment">1990s, các công ty công nghệ tiếp tục công bố Cloud Storage:</span></p>
-      <p><span class="fragment">Apple (iCloud)</span></p>
+      <p><span class="fragment">90s, các công ty công nghệ tiếp tục công bố Cloud Storage:</span></p>
       <p><span class="fragment">Amazon (Amazon Web Services)</span></p>
       <p><span class="fragment">Dropbox (Dropbox)</span></p>
       <p><span class="fragment">Google (Google Drive)</span></p>
     </div>
     <aside class="notes">
-      
     </aside>
   </section>
   <section data-background="{{site.baseurl}}/images/2022/10/08/s3-storage-cloudian/008.png" data-background-size="100%">
@@ -138,15 +142,19 @@ theme: black
       <h2>Object Storage và các Storage truyền thống</h2>
     </div>
   </section>
-  <section data-background="{{site.baseurl}}/images/2022/10/08/s3-storage-cloudian/009.png" data-background-size="100%">
-  </section>
   <section data-background="{{site.baseurl}}/images/2022/10/08/s3-storage-cloudian/010.jpeg" data-background-size="85%">
+    <aside class="notes">
+      Cách mạng công nghiệp lần 4
+      APIs, IoT, AI, ..
+    </aside>
   </section>
   <section data-background="{{site.baseurl}}/images/2022/10/08/s3-storage-cloudian/011.jpg" data-background-size="85%">
   </section>
   <section data-background="{{site.baseurl}}/images/2022/10/08/s3-storage-cloudian/012.jpg" data-background-size="85%">
   </section>
   <section data-background="{{site.baseurl}}/images/2022/10/08/s3-storage-cloudian/013.jpg" data-background-size="85%">
+  </section>
+  <section data-background="{{site.baseurl}}/images/2022/10/08/s3-storage-cloudian/009.png" data-background-size="100%">
   </section>
 </section>
 <!-- END 2 -->
@@ -308,7 +316,7 @@ theme: black
         <li class="fragment">Native S3 API Compatibility</li>
         <li class="fragment">Mở rộng theo dạng module</li>
         <li class="fragment">Hybrid Cloud</li>
-        <li class="fragment">Ransomeware protection</li>
+        <li class="fragment">Ransomware protection</li>
         <li class="fragment">Hỗ trợ đa nền tảng</li>
         <li class="fragment">Geo-distribution</li>
       </ul>
